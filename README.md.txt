@@ -1,1 +1,0 @@
-Responzivni, minimalisticka webova stranka, ktera popisuje klobasu. 
