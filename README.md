@@ -1,3 +1,5 @@
 # html
-2044
+
 Responzivni, minimalisticka webova stranka, ktera popisuje klobasu. 
+
+http://klobajzna.kvalitne.cz
