@@ -42,5 +42,16 @@ input[type=button]:hover {
 }
 
 .light-Mode {
-    
+    background-color: white;
+    color: black;
+}
+
+.light-Mode .calculator {
+    background-color: rgb(180, 180, 180);
+    border-color: #9c9c9c;
+}
+
+.light-Mode input[type=button] {
+    background-color: white;
+    color: black;
 }

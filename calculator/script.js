@@ -11,7 +11,16 @@ function clearScreen() {
         var b = eval(a);
         document.getElementById("result").value = b;
     }
+    
     function lightMode() {
-        var element = document.body;
-        element.classList.toggle("light-Mode")
+        var body = document.body;
+        var calculator = document.querySelector('calculator');
+        var buttons = document.querySelectorAll('input[type="button"]');
+
+        body.classList.toggle("light-Mode")
+        calculator.classList.toggle("light-Mode")
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].classList.toggle('light-Mode')
+        }
     }
