@@ -18,7 +18,6 @@ function clearScreen() {
         var buttons = document.querySelectorAll('input[type="button"]');
 
         body.classList.toggle("light-Mode")
-        calculator.classList.toggle("light-Mode")
 
         for (var i = 0; i < buttons.length; i++) {
             buttons[i].classList.toggle('light-Mode')
