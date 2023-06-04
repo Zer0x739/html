@@ -1,4 +1,4 @@
-# WEB
+# RUST
 
 ## Popis
 
