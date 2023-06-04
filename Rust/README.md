@@ -6,6 +6,9 @@ Tento web je o survival hře jménem Rust. Rust je sandboxová hra, ve které se
 
 Na tomto webu najdete informace o hře Rust. Pokud by byl dodelany nav a presmerovaval na dalsi stranky webu tak by web slouzil jako zdroj informací pro hráče, kteří se zajímají o Rust a chtějí se dozvědět více o herním prostředí, herních mechanikách, strategiích a dalších souvisejících tématech.
 
+## favicon.ico
+
+ikonka webu
 
 ## Licence
 
