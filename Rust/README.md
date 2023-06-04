@@ -10,3 +10,8 @@ Na tomto webu najdete informace o hře Rust. Pokud by byl dodelany nav a presmer
 ## Licence
 
 Tento software je poskytován "tak jak je" a Zer0x739 odmítá všechny záruky s ohledem na tento software, včetně všech předpokládaných záruk obchodovatelnosti a vhodnosti. V žádném případě nebude Zer0x739 odpovědný za jakékoliv zvláštní, přímé, nepřímé nebo následné škody či jakékoliv škody vzniklé ze ztráty používání, dat nebo zisku, ať již v případě konání, nebo akce nebo v souvislosti s používáním nebo výkonem tohoto softwaru.
+
+![Alt text](obrázek_2023-06-04_174936573.png "Optional title")
+![Alt text](obrázek_2023-06-04_174957214.png "Optional title")
+![Alt text](obrázek_2023-06-04_175009907.png "Optional title")
+![Alt text](obrázek_2023-06-04_175051360.png "Optional title")
