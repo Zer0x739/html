@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .bigimg {
+            position: relative;
+            background-image: url('https://cdn12.idcgames.com/storage/image/1125/rust-december/default.jpg');
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        .bigimg::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px; 
+            height: 500px; 
+            background-image: url('https://i.pinimg.com/736x/94/64/6a/94646abece675be28d75439327f4f5ec--rust-logos.jpg'); 
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center; 
+            opacity: 0.98;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gameplay</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="bigimg"></div>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Rust Survival Game</h1>
+            <p>The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife and other inhabitants, the environment, other survivors. Do whatever it takes to last another night.</p>
+            <a href="#" class="cta-button">Play Now</a>
+        </section>
+        <section class="parallax-section">
+            <div class="parallax">
+              <video src="https://files.facepunch.com/paddy/20210324/rust_site2021_hero_v002.mp4" autoplay loop muted></video>
+            </div>
+            <div class="parallax-text">
+              <p>In Rust, players start with nothing but a rock and a torch, and must quickly gather materials such as wood, stone, and metal to construct their first base. The game features a complex crafting system that allows players to create tools, weapons, and structures to aid in their survival. Gathering resources and managing hunger, thirst, and health are crucial aspects of gameplay. </p> <br>
+              <p> One of the defining features of Rust is its PvP aspect. Players must be constantly vigilant, as other players can pose a significant threat. Raiding and looting other players' bases is a common strategy, leading to intense battles and territorial disputes. This dynamic creates a tense and unpredictable environment where cooperation and betrayal are equally viable strategies.</p>
+            </div>
+          </section>
+        <section class="features">
+            <div class="feature">
+                <img src="https://www.corrosionhour.com/wp-content/uploads/2018/06/May_2018_base_design_014-768x432.jpg" alt="Feature 1">
+                <h2>Build and Craft</h2>
+                <p>Construct your base and craft weapons to defend against enemies.</p>
+            </div>
+            <div class="feature">
+                <img src="https://s3.amazonaws.com/prod-media.gameinformer.com/styles/body_default/s3/legacy-images/imagefeed/More%20Rough%20Than%20Diamond/Rust-3610.jpg" alt="Feature 2">
+                <h2>Explore the Map</h2>
+                <p>Roam the procedurally generated map and discover hidden treasures.</p>
+            </div>
+            <div class="feature">
+                <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://www.czechrust.cz/wp-content/uploads/2023/01/Rust_raid.jpg" alt="Feature 3">
+                <h2>Team up or Fight Alone</h2>
+                <p>Form alliances with other players or survive on your own.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Rust Survival Game. All rights reserved.</p>
+    </footer>
+</body>
+</html>
