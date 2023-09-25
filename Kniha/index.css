@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --bg-color: #252525;
+    --second-bg-color: rgb(0, 163, 0);
+    --text-bg-color: rgba(43, 43, 243, 0.644);
+    --main-bg-color: #ffffff;
+}
+
+body {
+    background: var(--main-bg-color);
+}
+
+.headline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 6%;
+    font-size: 40px;
+    color: var(--text-bg-color);
+    background: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    position: relative;
+    padding: 8px;
+    color: var(--main-bg-color);
+}
+
+h1::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: var(--main-bg-color);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+  }
+
+h1:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+section {
+    min-height: 900px;
+    padding: 20px 6% 5px;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    background: var(--main-bg-color);
+}
+
+.text {
+    max-width: 500px;
+}
+
+.text h2 {
+    position: relative;
+    font-size: 2cm;
+    line-height: 1.5;
+}
+
+.text p {
+    font-size: 0.4cm;
+    margin: 20px 0px 40px;
+}
+
+.btn-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 552px;
+    height: 50px;
+}
+
+.btn-box .btn {
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    background: var(--main-bg-color);
+    border: 3px solid var(--main-bg-color);
+    border-radius: 5px;
+    font-size: 0.8cm;
+    letter-spacing: 2px;
+    color: var(--bg-color);
+}
+
+img {
+    max-width: 300px;
+    margin: 60px 200px 40px;
+    border-radius: 5%;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Styly pro mobilní zařízení */
+    .headline {
+    text-align: center;
+    }
+    
+    .middle {
+    display: flex;
+    flex-direction: column-reverse;
+    }
+    
+    .text {
+    text-align: center;
+    }
+    
+    .btn-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -30px;
+    }
+    
+    .kniha {
+    margin-top: 74px;
+    }
+    }
